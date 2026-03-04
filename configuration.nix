@@ -60,7 +60,7 @@ in
       addons = with pkgs; [
         fcitx5-hangul
         fcitx5-gtk
-	fcitx5-nord
+	    fcitx5-nord
       ];
       waylandFrontend = true;
     };
