@@ -14,6 +14,11 @@
 
 <hr />
 
+- cachix
+  - https://docs.cachix.org/installation
+
+<hr />
+
 - Home manager버리고 Stow로 관리
   - [블로그 글_GNU Stow is the way to manage Dotfiles | Mar 21, 2025](https://joshblais.com/blog/gnu-stow/)
 
@@ -36,6 +41,14 @@
 
 ```bash
 sudo nixos-rebuild switch --show-trace
+```
+
+# nixos (helix)(cachix)
+- https://docs.helix-editor.com/package-managers.html#nixos
+- https://docs.cachix.org/installation
+
+```bash
+cachix use helix
 ```
 
 # home manager세팅

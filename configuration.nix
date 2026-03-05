@@ -7,6 +7,7 @@ in
   imports =
     [
       ./hardware-configuration.nix
+      ./cachix.nix
       (import "${home-manager}/nixos")
     ];
 
@@ -60,7 +61,7 @@ in
       addons = with pkgs; [
         fcitx5-hangul
         fcitx5-gtk
-	    fcitx5-nord
+	fcitx5-nord
       ];
       waylandFrontend = true;
     };
@@ -110,16 +111,12 @@ in
   # -----------------------------
   nixpkgs.config.allowUnfree = true;
 
+
   # ---------
   # default shell
   # ---------
   programs.fish.enable = true;
   users.defaultUserShell = pkgs.fish;
-
-  # -----------
-  # Set the default editor to vim
-  # -----------
-  environment.variables.EDITOR = "vim";
 
   # -----------------------------
   # Fonts
@@ -138,31 +135,33 @@ in
   programs.firefox.enable = true;
 
   environment.systemPackages = with pkgs; [
-    vim
-    neovim
     alacritty
-    rustc
-    cargo
-    gcc
     clang-tools
+    curl
+    gcc
+    git
     gnumake
-    llvmPackages_latest.llvm
+    helix 
     llvmPackages_latest.clang
     llvmPackages_latest.lld
+    llvmPackages_latest.llvm
+    neovim
+    rust-analyzer
+    rustup
+    vim
     wget
-    git
-    curl
+    wl-clipboard  # For Wayland
+    xclip         # For X11
+    zed-editor
   ];
 
-  ######
-  # dynamic libraries 
-  ######
-  # https://nix.dev/permalink/stub-ld
-  #
+  ## dynamically linked executables 
+  ## https://nix.dev/permalink/stub-ld 
   #programs.nix-ld.enable = true;
   #programs.nix-ld.libraries = with pkgs; [
     # Add any missing dynamic libraries for unpackaged programs
     # here, NOT in environment.systemPackages
+  
   #];
 
   # -----------------------------

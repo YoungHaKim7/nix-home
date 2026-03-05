@@ -63,9 +63,12 @@
 
   home.packages = with pkgs; [
     bat
-    neofetch
-    starship
-    google-chrome
+    discord-ptb
     gh
+    google-chrome
+    neofetch
+    neovide
+    python3
+    starship
   ];
 }
