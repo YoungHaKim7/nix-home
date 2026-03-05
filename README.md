@@ -6,6 +6,7 @@
     - [flakes 설명서](https://nixos-and-flakes.thiscute.world/introduction/)
   - [(외부 유튜브 링크)flakes nixos 기초부터 구축까지 영상 모아보기](https://youtube.com/playlist?list=PLCQqUlIAw2cCuc3gRV9jIBGHeekVyBUnC&si=dsMQcnDHKjkgAwgK)
   - 영상 짧게 요점만 설명한거(youtube)
+    - [NixOS: Everything Everywhere All At Once | No Boilerplate](https://youtu.be/CwfKlX3rA6E?si=Nb_LaCokoQedwExr)
     - [닉스 플레이크에 대한 설명 | Vimjoyer](https://youtu.be/S3VBi6kHw5c?si=HPeYZLaJTcvaxSRA)
 
 
@@ -18,6 +19,7 @@
 
 - 외국인이 만든 nix기타등등
   - https://github.com/omerxx/dotfiles
+  - https://github.com/sioodmy/dotfiles
 
 <hr />
 
