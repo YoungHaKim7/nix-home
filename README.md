@@ -9,6 +9,8 @@
     - [NixOS: Everything Everywhere All At Once | No Boilerplate](https://youtu.be/CwfKlX3rA6E?si=Nb_LaCokoQedwExr)
     - [닉스 플레이크에 대한 설명 | Vimjoyer](https://youtu.be/S3VBi6kHw5c?si=HPeYZLaJTcvaxSRA)
 
+- 내 세팅 최종(home manager버림 ㅋ)260305
+  - https://github.com/YoungHaKim7/nix_os_flake_rust_dev_config_dotfiles
 
 <hr />
 
