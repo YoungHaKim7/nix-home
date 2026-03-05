@@ -117,6 +117,11 @@ in
   programs.fish.enable = true;
   users.defaultUserShell = pkgs.fish;
 
+  # -----------
+  # Set the default editor to vim
+  # -----------
+  environment.variables.EDITOR = "vim";
+
   # -----------------------------
   # Fonts
   # -----------------------------
