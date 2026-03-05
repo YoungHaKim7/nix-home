@@ -12,6 +12,11 @@
 
 <hr />
 
+- Home manager버리고 Stow로 관리
+  - [블로그 글_GNU Stow is the way to manage Dotfiles | Mar 21, 2025](https://joshblais.com/blog/gnu-stow/)
+
+<hr />
+
 - Home manager세팅Youtube link
   - [(외부링크)How to Use NixOS Home Manager (2026 Edition) | NixOS Guide Part 2](https://youtu.be/bFmvnJVd5yQ?si=eXJDM3o6oVD9iM9G)
 - homa manager내가 세팅하거 (초기 버전 0.0.1)
