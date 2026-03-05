@@ -1,3 +1,11 @@
+# link
+
+- [An unofficial NixOS & Flakes book for beginners](https://discourse.nixos.org/t/an-unofficial-nixos-flakes-book-for-beginners/29561)
+  - [flakes 홈페이지](https://nixos-and-flakes.thiscute.world/)
+  - [flakes 설명서](https://nixos-and-flakes.thiscute.world/introduction/)
+
+<hr />
+
 # nix-home
 
 # 세팅하고 적용하기
