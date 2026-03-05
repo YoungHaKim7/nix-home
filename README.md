@@ -5,6 +5,9 @@
     - [flakes 홈페이지](https://nixos-and-flakes.thiscute.world/)
     - [flakes 설명서](https://nixos-and-flakes.thiscute.world/introduction/)
   - [(외부 유튜브 링크)flakes nixos 기초부터 구축까지 영상 모아보기](https://youtube.com/playlist?list=PLCQqUlIAw2cCuc3gRV9jIBGHeekVyBUnC&si=dsMQcnDHKjkgAwgK)
+  - 영상 짧게 요점만 설명한거(youtube)
+    - [닉스 플레이크에 대한 설명 | Vimjoyer](https://youtu.be/S3VBi6kHw5c?si=HPeYZLaJTcvaxSRA)
+
 
 <hr />
 
