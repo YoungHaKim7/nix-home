@@ -13,6 +13,9 @@
 - homa manager내가 세팅하거 (초기 버전 0.0.1)
   - https://github.com/YoungHaKim7/nix-home/tree/v0.0.1-2026-03-05
 
+- 외국인이 만든 nix기타등등
+  - https://github.com/omerxx/dotfiles
+
 <hr />
 
 # nix-home
