@@ -4,6 +4,7 @@
   - [An unofficial NixOS & Flakes book for beginners](https://discourse.nixos.org/t/an-unofficial-nixos-flakes-book-for-beginners/29561)
     - [flakes 홈페이지](https://nixos-and-flakes.thiscute.world/)
     - [flakes 설명서](https://nixos-and-flakes.thiscute.world/introduction/)
+  - [(외부 유튜브 링크)flakes nixos 기초부터 구축까지 영상 모아보기](https://youtube.com/playlist?list=PLCQqUlIAw2cCuc3gRV9jIBGHeekVyBUnC&si=dsMQcnDHKjkgAwgK)
 
 <hr />
 
