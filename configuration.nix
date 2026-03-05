@@ -110,7 +110,6 @@ in
   # -----------------------------
   nixpkgs.config.allowUnfree = true;
 
-
   # ---------
   # default shell
   # ---------
@@ -165,7 +164,6 @@ in
     # Add any missing dynamic libraries for unpackaged programs
     # here, NOT in environment.systemPackages
   #];
-
 
   # -----------------------------
   # Graphics
