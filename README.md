@@ -9,6 +9,8 @@
 
 - Home manager세팅Youtube link
   - [(외부링크)How to Use NixOS Home Manager (2026 Edition) | NixOS Guide Part 2](https://youtu.be/bFmvnJVd5yQ?si=eXJDM3o6oVD9iM9G)
+- homa manager내가 세팅하거 (초기 버전 0.0.1)
+  - https://github.com/YoungHaKim7/nix-home/tree/v0.0.1-2026-03-05
 
 <hr />
 
