@@ -1,8 +1,14 @@
 # link
 
-- [An unofficial NixOS & Flakes book for beginners](https://discourse.nixos.org/t/an-unofficial-nixos-flakes-book-for-beginners/29561)
-  - [flakes 홈페이지](https://nixos-and-flakes.thiscute.world/)
-  - [flakes 설명서](https://nixos-and-flakes.thiscute.world/introduction/)
+- Flakes
+  - [An unofficial NixOS & Flakes book for beginners](https://discourse.nixos.org/t/an-unofficial-nixos-flakes-book-for-beginners/29561)
+    - [flakes 홈페이지](https://nixos-and-flakes.thiscute.world/)
+    - [flakes 설명서](https://nixos-and-flakes.thiscute.world/introduction/)
+
+<hr />
+
+- Home manager세팅Youtube link
+  - [(외부링크)How to Use NixOS Home Manager (2026 Edition) | NixOS Guide Part 2](https://youtu.be/bFmvnJVd5yQ?si=eXJDM3o6oVD9iM9G)
 
 <hr />
 
@@ -18,8 +24,7 @@ sudo nixos-rebuild switch --show-trace
 - https://wiki.nixos.org/wiki/Home_Manager
 
 - https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone
-  - Youtube link
-    - [How to Use NixOS Home Manager (2026 Edition) | NixOS Guide Part 2](https://youtu.be/bFmvnJVd5yQ?si=eXJDM3o6oVD9iM9G)
+
 
 # default shell(fish)
 - https://wiki.nixos.org/wiki/Fish
