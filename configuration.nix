@@ -153,6 +153,7 @@ in
     wl-clipboard  # For Wayland
     xclip         # For X11
     zed-editor
+    zellij
   ];
 
   ## dynamically linked executables 
