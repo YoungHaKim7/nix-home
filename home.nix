@@ -22,6 +22,9 @@
     '';
   };
 
+  # ----
+  # my programs
+  # ----
   programs.alacritty = {
     enable = true;
     settings = {
@@ -33,6 +36,7 @@
       font.size = 16;
     };
   };
+
   programs.obs-studio = {
     enable = true;
 
