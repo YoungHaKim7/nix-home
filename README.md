@@ -51,6 +51,36 @@ sudo nixos-rebuild switch --show-trace
 cachix use helix
 ```
 
+# cachix
+
+- 260307test
+```
+$ nix profile install --accept-flake-config nixpkgs#cachix --extra-experimental-features flakes --extra-experimental-features nix-command
+warning: 'install' is a deprecated alias for 'add'
+error: An existing package already provides the following file:
+
+         /nix/store/siqy0d2pwvkjzx8rmmdlkw38d1rf9f11-cachix-1.10.1-bin/bin/cachix
+
+       This is the conflicting file from the new package:
+
+         /nix/store/q7rh6v6flhvyiyfz2q9lwhip8jbax1ym-cachix-1.10.1-bin/bin/cachix
+
+       To remove the existing package:
+
+         nix profile remove cachix
+
+       The new package can also be added next to the existing one by assigning a different priority.
+       The conflicting packages have a priority of 5.
+       To prioritise the new package:
+
+         nix profile add flake:nixpkgs#legacyPackages.x86_64-linux.cachix --priority 4
+
+       To prioritise the existing package:
+
+         nix profile add flake:nixpkgs#legacyPackages.x86_64-linux.cachix --priority 6
+
+```
+
 # home manager세팅
 - https://wiki.nixos.org/wiki/Home_Manager
 
