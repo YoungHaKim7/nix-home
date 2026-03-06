@@ -53,6 +53,12 @@
     ];
   };
 
+  programs.zellij = {
+    enable = true;
+    enableBashIntegration = true; # Optional
+    # settings = { ... }; # Optional configuration
+  };
+
   home.file.".config/bat/config".text = ''
     --theme="Nord"
     --style="numbers,changes,grid"
